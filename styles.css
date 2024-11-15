@@ -1,0 +1,359 @@
+/* #region Whole Content Area*/
+
+body {
+    margin: 0;
+}
+
+
+
+/* #endregion */
+
+
+
+
+/* #region Hero Images */
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+
+}
+
+#home {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/river.webp);
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+
+
+/* #endregion */
+
+
+
+
+
+
+
+
+
+/* #region Hero Images */
+
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+    
+}
+
+#act1 {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/green.webp);
+    background-position: center; 
+    background-attachment: fixed;
+    
+    
+    
+ 
+}
+
+/* #endregion */
+
+
+/* #region Hero Images*/
+
+
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+    
+}
+
+#food {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/green.webp);
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+/* #endregion */
+
+
+/* #region Hero Images */
+header {
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+    
+}
+
+#must {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.685), rgba(0,0,0,.3)), url(images/green.webp);
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+
+/* #endregion */
+
+
+
+
+
+
+
+
+.fact {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: darkolivegreen;
+}
+
+.go {
+    width: 60% ;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.history {
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+
+/* #region Navbar */
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0a80c ;
+    
+
+}
+
+nav>ul>li {
+    padding: 10px;
+    
+}
+
+nav>ul>li:hover {
+    background-color: #84aa25;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+
+
+
+/* #region navbar Phone */
+
+@media screen and (max-width:420px) {
+    nav>ul {
+        flex-direction: column;
+    }
+
+
+    nav li {
+        margin: 0;
+    }
+
+
+    
+    
+
+
+
+
+}
+/* #endregion */
+
+
+
+
+
+
+
+
+
+
+.hero-text {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    color: rgb(175, 179, 187);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+.p {
+    font-size: 40px;
+}
+
+.hero-texti {
+    color: darkkhaki;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+article {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+article>img {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+article>p{
+    font-size: 20pt;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article>h3 {
+    text-align: center;
+    font-size: 20pt;
+}
+
+
+
+.fun {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: darkolivegreen;
+}
+
+.hero-tex {
+    color: rgb(187, 186, 167);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.foo {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: darkolivegreen;
+}
+
+.see {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    color: darkolivegreen;
+}
+
+
+.nature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.nature>div {
+    margin: auto;
+
+}
+
+.mail {
+    text-align: center;
+}
+
+
+.activity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.activity>div {
+    margin: auto;
+}
+
+.green {
+    text-align: center;
+}
+
+
+.foodie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.foodie>div {
+    margin: auto;
+}
+
+.red {
+    text-align: center;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.shop>div {
+    margin: auto;
+}
+
+.blue {
+    text-align: center;
+}
+
+.naturepics {
+    display: flex;
+    justify-content: center;
+}
+
+.naturepics>figure {
+    width: 20%;
+}
+
+.naturepics>figure>img {
+    width: 125%;
+    height: 90%;
+}
+
+
+
+
